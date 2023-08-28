@@ -1,0 +1,316 @@
+* {
+  font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  color: white;
+}
+body{
+  background: rgb(56, 56, 56);
+}
+a {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.section1 {
+  background-image: url(./img/fondog.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+ 
+ z-index: 5;
+  height: 80vh;
+
+
+
+
+
+
+}
+.section1::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: -1;
+}
+.row {
+  width: 99%;
+  align-items: center;
+}
+
+
+/*botones superiores*/
+.idiomas {
+  background-color: rgba(0, 0, 0, 0.534);
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-idomas {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.inicio {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/*principal*/
+
+.principal {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.principal h1 {
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.principal h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.principal h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom: 20px;
+}
+
+/*email*/
+
+#email {
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.603);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.575);
+  color: white;
+
+}
+
+#email::placeholder {
+  color: white;
+  padding-left: 10px;
+
+}
+
+/*btn comenzar*/
+
+.btn-comenzar a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+/*section-disfruta-en-tu-tv*/
+.section-disfruta-en-tu-tv{
+ 
+ background: black;
+ padding:50px 100px 50px 100px;
+margin: 10px 0 10px 0;
+}
+.tv{
+  z-index: 1;
+}
+.tv video{
+  left: 13%;
+  top: 20.5%;
+  z-index: -1;
+  width: 80%;
+ 
+}
+.disfruta-en-tu-tv h2{
+  font-size: 3rem;
+    font-weight: 900;
+   line-height: 58px;
+}
+.disfruta-en-tu-tv p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/*section-Descarga-tus-series-para-verlas-offline*/
+.section-Descarga-tus-series-para-verlas-offline{
+  padding:50px 100px 50px 100px;
+  margin: 10px 0 10px 0;
+ 
+  background: black;
+  
+}
+.section-Descarga-tus-series-para-verlas-offline .Descarga-tus-series h2{
+  font-size: 3rem;
+  font-weight: 900;
+ line-height: 58px;
+}
+.section-Descarga-tus-series-para-verlas-offline .Descarga-tus-series p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/*movil1*/
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil1 .conte-descarga-movil img{
+  width: 20%;
+}
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil1 .conte-descarga-movil{
+ padding: 5px 10px 0 10px ;
+}
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil1{
+ 
+  border:2px solid rgba(128,128,128,0.7);
+  border-radius: 15px;
+  background: black;
+  width:  54%;
+  top: 70%;
+  left: 23%;
+}
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil .conte-descarga-movil .text-movil1 h4{
+  font-size: 16px;
+  
+}
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil .conte-descarga-movil .text-movil1 h5{
+  font-size: 16px;
+  color: blue;
+}
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil1 .icon-descarga{
+ width: 100%;
+ left: 75%;
+ top:25%;
+
+}
+
+
+/*section-Disfruta-donde-quieras*/
+
+.section-Disfruta-donde-quieras{
+  padding:50px 100px 50px 100px;
+  background-color: black;
+  margin: 10px 0 10px 0;
+}
+.section-Disfruta-donde-quieras .Disfrutadn h2{
+  font-size: 3rem;
+  font-weight: 900;
+ line-height: 58px;
+}
+.section-Disfruta-donde-quieras .Disfrutadn p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.section-Disfruta-donde-quieras .disfrutadn2{
+  z-index: 1;
+}
+.section-Disfruta-donde-quieras .disfrutadn2 .mac-tras{
+  top: 11%;
+  left: 17%;
+  width: 64%;
+ 
+  z-index: -1;
+}
+
+/*niños*/
+
+.section-niños{
+  padding:50px 100px 50px 100px;
+  background-color: black;
+  margin: 10px 0 10px 0;
+}
+.section-niños .niños-text h2{
+  font-size: 3rem;
+  font-weight: 900;
+ line-height: 58px;
+}
+.section-niños .niños-text p{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/*preguntas frecuentes*/
+
+.preguntas-frecuentes{
+  background: black;
+  padding: 100px;
+
+}
+.preguntas-frecuentes .titulo{
+  font-size: 48px;
+  margin: 30px;
+}
+.preguntas-frecuentes .accordion-item{
+  background: black;
+  
+}
+
+.preguntas-frecuentes .accordion-item p{
+ font-size: 24px;
+}
+.preguntas-frecuentes .accordion-button{
+  background: black;
+ 
+}
+.preguntas-frecuentes .btn-acordion{
+  font-size: 26px;
+  color: white;
+}
+.preguntas-frecuentes .btn-acordion::after{
+  display: none;
+  
+}
+/*preguntas frecuentes email */
+
+#email2{
+  background:rgb(57, 71, 131);
+  border: 2px solid rgb(86, 141, 84);
+  border-radius: 5px;
+  height: 50px;
+}
+#email2::placeholder{
+  color: white;
+  padding-left: 10px;
+}
+
+
+
+
+/*footer*/
+
+footer{
+  background:  black;
+  padding:  50px 0 50px 100px ;
+  margin: 10px 0 0 0;
+}
+footer ul {
+  list-style: none;
+  color: grey;
+  
+}
+footer .list li{
+  padding-top: 10px;
+}
+footer .idiomas-footer{
+  background: rgba(70, 69, 69, 0.37);
+  margin: 15px 0 0 0 ;
+  border: 2px solid rgb(177, 174, 174);
+ 
+}
+footer h6{
+  padding-top: 15px;
+}
+footer .list li a{
+  color: rgb(180, 178, 178);
+  
+}
+

@@ -1,0 +1,167 @@
+@media (max-width: 600px) {
+    /*idiomas*/
+    .section1{
+        height: 85vh;
+    }
+    .idiomas{
+        width: auto;
+    }
+    .btn-idomas{
+        display: none;
+    }
+    .inicio{
+        width: auto;
+    }
+    .espacio-btn{
+        display: none;
+    }
+}
+
+/*principal*/
+@media (max-width:600px){
+    .principal h1 {
+        
+        font-size: 2.25rem;
+       
+       
+      }
+      .principal h2 {
+        font-size: 1.25rem;
+        
+      }
+      .principal h4 {
+        font-size: 1.25rem;
+        
+        
+      }
+}
+/*input1*/
+@media (max-width:600px){
+    .btn-comenzar{
+        margin-top: 20px;
+    }
+}
+/*section-disfruta-en-tu-tv*/
+@media (max-width:600px){
+    .section-disfruta-en-tu-tv{
+        flex-wrap: wrap;
+        padding: 20px;
+       
+    }
+    .disfruta-en-tu-tv h2, p{
+        text-align: center;
+    }
+    .disfruta-en-tu-tv h2{
+        font-size: 32px;
+    }
+    .disfruta-en-tu-tv p{
+        font-size: 18px;
+    }
+}
+
+/*section-disfruta-en-tu-t*/
+@media (max-width:600px){ 
+.section-Descarga-tus-series-para-verlas-offline{
+   
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+}
+.section-Descarga-tus-series-para-verlas-offline .Descarga-tus-series h2{
+    text-align: center;
+    font-size: 35px;
+    line-height: 42px;
+   
+}
+.section-Descarga-tus-series-para-verlas-offline .Descarga-tus-series p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-Descarga-tus-series-para-verlas-offline  .conte-movil1 .icon-descarga{
+    width: 75%;
+}
+}
+
+
+/*section-Disfruta-donde-quieras*/
+
+
+@media (max-width:600px){
+    .section-Disfruta-donde-quieras{
+        
+    flex-wrap: wrap;
+    padding: 10px;
+    }
+    .section-Disfruta-donde-quieras .Disfrutadn h2{
+        text-align: center;
+        font-size: 35px;
+        line-height: 42px;
+       
+    }
+    .section-Disfruta-donde-quieras .Disfrutadn p{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+
+/*niños*/
+
+@media (max-width:600px){
+    .section-niños{
+        
+    flex-wrap: wrap-reverse;
+    padding: 10px 0 0 30px;
+    }
+    .section-niños .niños-text h2{
+        text-align: center;
+        font-size: 35px;
+        line-height: 42px;
+       
+    }
+    .section-niños .niños-text p{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+
+
+/*preguntas frecuentes*/
+
+@media (max-width:600px){
+    .preguntas-frecuentes{
+        padding: 20px;
+        
+    }
+    .preguntas-frecuentes .titulo{
+        font-size: 32px;
+       margin: 30px 0 30px 0;
+      }
+    .preguntas-frecuentes .accordion-item p{
+        font-size: 20px;
+       }
+
+       /*email2*/
+       #email2{
+        height: 50px;
+       }
+       .preguntas-frecuentes  .titulo-email2{
+        font-size: 18px;
+        text-align: center;
+       }
+}
+
+
+/*footer*/
+
+@media (max-width:600px){
+    footer{
+        flex-wrap: wrap;
+        padding-left: 10px;
+        
+    }
+    footer .list h5{
+        font-size: 18px;
+    }
+}
